@@ -1,7 +1,22 @@
-.Inicio {
+.inicio{
+    background-color: black;
+    opacity: 0.7;
+}
+.Encabezado {
+    color: aliceblue;
+    background-image: url(img/fondo-bienvenido-grande.jpg);
+    background-size: cover;
+    height: 970px;
     text-align: center;
-    padding-bottom: 30px;
-    padding-top: 30px;
+}
+.Bienvenidos {
+    padding-top: 350px;
+}
+.en-botones{
+    padding-left: 1100px;
+}
+.en-logo{
+    padding-left: 50px;
 }
 .Informacion {
     background-color: orange;
