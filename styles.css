@@ -7,7 +7,7 @@
     background-image: url(img/fondo-bienvenido-grande.jpg);
     background-size: cover;
     height: 970px;
-    text-align: center;
+    text-align: center; 
 }
 .Bienvenidos {
     padding-top: 350px;
@@ -15,14 +15,58 @@
 .en-botones{
     padding-left: 1100px;
 }
+
+button{
+    border: none;
+    outline: none;
+    background-color: black;
+    opacity: 0.7;
+    cursor: pointer;
+}
+button:hover{
+    background-color: orangered;
+}
 .en-logo{
-    padding-left: 50px;
+    margin-right: auto;
 }
 .Informacion {
-    background-color: orange;
+    background-color: tomato;
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
+}
+.btn-con{
+    color: white;
+    background-color: tomato;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+.textos{
+    color: white;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn-info{
+    color: black;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
 }
 .Servicios {
     background-color:white ;
@@ -31,15 +75,19 @@
     padding-bottom: 30px;
 }
 .Proyectos {
-    color: white;
     background-color: gray;
-    text-align: center;
     padding-top: 30px;
-    padding-bottom: 30px;
 }
-
-.img_proyectos{
-    margin-right: 30px;
+.con-img{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 350px;
+    padding: 0px 100px;
+}
+.con-titulo{
+    color: white;
+    text-align: center;
 }
 
 .Pie_pagina{
