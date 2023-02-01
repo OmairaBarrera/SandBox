@@ -1,0 +1,36 @@
+.Inicio {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.Informacion {
+    background-color: orange;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.Servicios {
+    background-color:white ;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.Proyectos {
+    color: white;
+    background-color: gray;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.img_proyectos{
+    margin-right: 30px;
+}
+
+.Pie_pagina{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
