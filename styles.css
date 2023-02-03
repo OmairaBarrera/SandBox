@@ -8,11 +8,11 @@
 }
 @font-face {
     font-family: 'opensans';
-    src: url(font/fontawesome-webfont.woff);
+    src: url(font/opensans-regular-webfont.woff);
 }
 @font-face {
-    font-family: 'fontawesome';
-    src: url(opensans-regular-webfont.woff);
+    font-family: 'opensans2';
+    src: url(fonts/opensans-regular-webfont.woff2)
 }
 .inicio{
     background-color: black;
@@ -30,7 +30,9 @@
 }
 h1{
     font-family: "opensans";
-    font-size: 50px;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .en-botones{
     padding-left: 1100px;
@@ -63,16 +65,15 @@ p{
     padding-top: 30px;
     padding-bottom: 100px;
 }
-button1{
+.btn-con{
     color: white;
     background-color: tomato;
     border: none;
     outline: none;
-    margin-top: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 10px;
     cursor: pointer;
 }
