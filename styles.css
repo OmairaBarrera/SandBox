@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'fontawesome';
+    src: url(font/fontawesome-webfont.woff);
+}
+@font-face {
+    font-family: 'awesome2';
+    src: url(font/fontawesome-webfont.woff2);
+}
+@font-face {
+    font-family: 'opensans';
+    src: url(font/fontawesome-webfont.woff);
+}
+@font-face {
+    font-family: 'fontawesome';
+    src: url(opensans-regular-webfont.woff);
+}
 .inicio{
     background-color: black;
     opacity: 0.7;
@@ -12,22 +28,34 @@
 .Bienvenidos {
     padding-top: 350px;
 }
+h1{
+    font-family: "opensans";
+    font-size: 50px;
+}
 .en-botones{
     padding-left: 1100px;
 }
-
 button{
     border: none;
     outline: none;
     background-color: black;
-    opacity: 0.7;
     cursor: pointer;
+    font-family: "opensans2";
 }
 button:hover{
     background-color: orangered;
 }
 .en-logo{
     margin-right: auto;
+    font-family: "opensans2";
+}
+h2{
+    font-family: "opensans";
+    font-size: 40px;
+}
+p{
+    font-family: "opensans";
+    font-size: 15px;
 }
 .Informacion {
     background-color: tomato;
@@ -35,18 +63,18 @@ button:hover{
     padding-top: 30px;
     padding-bottom: 100px;
 }
-.btn-con{
+button1{
     color: white;
     background-color: tomato;
     border: none;
     outline: none;
-    cursor: pointer;
-    margin-top: 30px;
+    margin-top: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .textos{
     color: white;
@@ -70,9 +98,36 @@ button:hover{
 }
 .Servicios {
     background-color:white ;
-    text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.ser-icon{
+    width: 60%;
+    display: flex;
+    flex-wrap: column;
+    text-align: center;
+    margin: 0px 350px;
+    padding: 0px 100px;
+}
+.ser-titulo{
+    color: black;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.fa-suitcase{
+    font-size: 100px;
+    color: tomato;
+    padding-bottom: 20px;
+}
+.fa-bullhorn{
+    font-size: 100px;
+    color: tomato;
+    padding-bottom: 20px;
+}
+.fa-square-check{
+    font-size: 100px;
+    color: tomato;
+    padding-bottom: 20px;
 }
 .Proyectos {
     background-color: gray;
@@ -89,11 +144,11 @@ button:hover{
     color: white;
     text-align: center;
 }
-
 .Pie_pagina{
     background-color: black;
     color: white;
     text-align: center;
+    font-family: "opensans2";
     padding-top: 15px;
     padding-bottom: 15px;
 }
